@@ -1,0 +1,69 @@
+# flyctl launch added from vendor/github.com/golang-jwt/jwt/.gitignore
+vendor/github.com/golang-jwt/jwt/**/.DS_Store
+vendor/github.com/golang-jwt/jwt/**/bin
+vendor/github.com/golang-jwt/jwt/**/.idea
+
+
+# flyctl launch added from vendor/github.com/labstack/echo/v4/.gitignore
+vendor/github.com/labstack/echo/v4/**/.DS_Store
+vendor/github.com/labstack/echo/v4/**/coverage.txt
+vendor/github.com/labstack/echo/v4/**/_test
+vendor/github.com/labstack/echo/v4/**/vendor
+vendor/github.com/labstack/echo/v4/**/.idea
+vendor/github.com/labstack/echo/v4/**/*.iml
+vendor/github.com/labstack/echo/v4/**/*.out
+vendor/github.com/labstack/echo/v4/**/.vscode
+
+# flyctl launch added from vendor/github.com/spf13/cobra/.gitignore
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+vendor/github.com/spf13/cobra/**/*.o
+vendor/github.com/spf13/cobra/**/*.a
+vendor/github.com/spf13/cobra/**/*.so
+
+# Folders
+vendor/github.com/spf13/cobra/**/_obj
+vendor/github.com/spf13/cobra/**/_test
+
+# Architecture specific extensions/prefixes
+vendor/github.com/spf13/cobra/**/*.[568vq]
+vendor/github.com/spf13/cobra/**/[568vq].out
+
+vendor/github.com/spf13/cobra/**/*.cgo1.go
+vendor/github.com/spf13/cobra/**/*.cgo2.c
+vendor/github.com/spf13/cobra/**/_cgo_defun.c
+vendor/github.com/spf13/cobra/**/_cgo_gotypes.go
+vendor/github.com/spf13/cobra/**/_cgo_export.*
+
+vendor/github.com/spf13/cobra/**/_testmain.go
+
+# Vim files https://github.com/github/gitignore/blob/master/Global/Vim.gitignore
+# swap
+vendor/github.com/spf13/cobra/**/[._]*.s[a-w][a-z]
+vendor/github.com/spf13/cobra/**/[._]s[a-w][a-z]
+# session
+vendor/github.com/spf13/cobra/**/Session.vim
+# temporary
+vendor/github.com/spf13/cobra/**/.netrwhist
+vendor/github.com/spf13/cobra/**/*~
+# auto-generated tag files
+vendor/github.com/spf13/cobra/**/tags
+
+vendor/github.com/spf13/cobra/**/*.exe
+vendor/github.com/spf13/cobra/**/cobra.test
+vendor/github.com/spf13/cobra/**/bin
+
+vendor/github.com/spf13/cobra/**/.idea
+vendor/github.com/spf13/cobra/**/*.iml
+
+# flyctl launch added from vendor/github.com/spf13/pflag/.gitignore
+vendor/github.com/spf13/pflag/**/.idea/*
+
+
+# flyctl launch added from vendor/golang.org/x/net/http2/.gitignore
+vendor/golang.org/x/net/http2/**/*~
+vendor/golang.org/x/net/http2/**/h2i/h2i
+
+# flyctl launch added from vendor/golang.org/x/sys/unix/.gitignore
+vendor/golang.org/x/sys/unix/**/_obj
+vendor/golang.org/x/sys/unix/**/unix.test
+fly.toml
