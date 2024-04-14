@@ -6,7 +6,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/pdstuber/go-echo-test/internal/api"
-	"github.com/pdstuber/go-echo-test/pkg/jsonserializer"
+	"github.com/pdstuber/go-echo-test/internal/json"
 )
 
 type Server struct {
@@ -17,7 +17,7 @@ type Server struct {
 
 func New(listenPort string) *Server {
 	e := echo.New()
-	e.JSONSerializer = jsonserializer.NewSerializer()
+	e.JSONSerializer = json.NewJSONSerializer()
 
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())

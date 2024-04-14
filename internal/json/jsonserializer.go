@@ -1,4 +1,4 @@
-package jsonserializer
+package json
 
 import (
 	"fmt"
